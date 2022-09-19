@@ -23,6 +23,7 @@ additional Led-Breakout hasnt been tested yet, **needs validation**
 ### Layout :: 
 
 ![](/images/layout_options.png)
+
 customizable with Vial-Firmware 
 
 ## Images :: 
