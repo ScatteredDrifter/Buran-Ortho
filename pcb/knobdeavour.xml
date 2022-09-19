@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/fabian/Nextcloud/tech-cluster/KEYBOARDS/own/knobdeavour/pcb/knobdeavour/knobdeavour.kicad_sch</source>
-    <date>Sun Jul 31 17:18:22 2022</date>
-    <tool>Eeschema (6.0.6)</tool>
+    <source>/home/fabian/Nextcloud/tech-cluster/KEYBOARDS/own/Buran-Ortho/pcb/knobdeavour.kicad_sch</source>
+    <date>Mon 19 Sep 2022 14:16:40 CEST</date>
+    <tool>Eeschema (6.0.7)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Rp2040 __template__</title>
@@ -100,7 +100,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ef00505</tstamps>
+      <tstamps>eb04a651-7cdc-4965-a338-e16a12635a41</tstamps>
     </comp>
     <comp ref="C7">
       <value>100n</value>
@@ -113,7 +113,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ef0050f</tstamps>
+      <tstamps>825e08b5-a9c2-40a3-942b-600293a8d177</tstamps>
     </comp>
     <comp ref="C8">
       <value>1u</value>
@@ -126,7 +126,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ef07987</tstamps>
+      <tstamps>afca7722-e77a-450b-b022-aaf93f6c349f</tstamps>
     </comp>
     <comp ref="C9">
       <value>100n</value>
@@ -139,7 +139,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005eeee897</tstamps>
+      <tstamps>c3e925c4-ebac-4a52-b85c-054cc69c73a4</tstamps>
     </comp>
     <comp ref="C10">
       <value>1u</value>
@@ -152,7 +152,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ef08170</tstamps>
+      <tstamps>d2733eaa-4b5a-45d3-ad38-fd51a36156ce</tstamps>
     </comp>
     <comp ref="C11">
       <value>100n</value>
@@ -165,7 +165,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005eef00bb</tstamps>
+      <tstamps>202ae889-f415-41ab-9c01-2d22cd8eb609</tstamps>
     </comp>
     <comp ref="C12">
       <value>100n</value>
@@ -178,7 +178,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005eef0473</tstamps>
+      <tstamps>303fd9ec-c804-4f32-8416-a90cc69ce2f3</tstamps>
     </comp>
     <comp ref="C13">
       <value>100n</value>
@@ -191,7 +191,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005eef0994</tstamps>
+      <tstamps>1436a43d-9a8c-4628-b0e5-af0b2cf96599</tstamps>
     </comp>
     <comp ref="C14">
       <value>100n</value>
@@ -204,7 +204,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005eef89b3</tstamps>
+      <tstamps>d66106fa-1516-45ca-85b9-4c794b190ff2</tstamps>
     </comp>
     <comp ref="C17">
       <value>10u</value>
@@ -223,7 +223,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -233,7 +237,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -243,7 +251,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -253,7 +265,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -263,7 +279,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -273,7 +293,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -283,7 +307,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -293,7 +321,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -303,7 +335,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -313,7 +349,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -323,7 +363,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -333,7 +377,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -343,7 +391,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -353,7 +405,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -363,7 +419,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -373,7 +433,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -383,7 +447,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -393,7 +461,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -403,7 +475,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -413,7 +489,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -423,7 +503,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -433,7 +517,11 @@
       <value>BAV70</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C68978</field>
+      </fields>
       <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <property name="LCSC" value="C68978"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -875,6 +963,19 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005edae9f0</tstamps>
     </comp>
+    <comp ref="R2">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C104170</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C104170"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83ff609a-8cee-4c28-a2db-6ce07e12942a</tstamps>
+    </comp>
     <comp ref="R3">
       <value>27</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
@@ -886,20 +987,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ede0881</tstamps>
-    </comp>
-    <comp ref="R4">
-      <value>27</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <fields>
-        <field name="LCSC">C104170</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C104170"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ede1624</tstamps>
+      <tstamps>07efcaa6-75e5-4063-89c6-1e064c5efe33</tstamps>
     </comp>
     <comp ref="R5">
       <value>1k</value>
@@ -940,18 +1028,18 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1fc5be1e-cce7-4285-b6b9-19afff45415d</tstamps>
     </comp>
-    <comp ref="SW0">
-      <value>RESET </value>
-      <footprint>Keebio-Parts:SW_SPST_TL3342</footprint>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C318884</field>
+        <field name="LCSC">C115309</field>
       </fields>
-      <libsource lib="cipulot_parts" part="SW_PUSH" description=""/>
-      <property name="LCSC" value="C318884"/>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C115309"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2c8fa47b-35bd-4bbc-8584-8c363366e5f3</tstamps>
+      <tstamps>292b1b95-b8ee-4daa-8a71-b026b67c10b0</tstamps>
     </comp>
     <comp ref="SW1">
       <value>RotaryEncoder_Switch</value>
@@ -971,15 +1059,41 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1ec7a1a6-6133-481b-ba0f-96fb5495c225</tstamps>
     </comp>
+    <comp ref="SW3">
+      <value>SW_PUSH</value>
+      <footprint>Keebio-Parts:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="LCSC">C318884</field>
+      </fields>
+      <libsource lib="cipulot_parts" part="SW_PUSH" description=""/>
+      <property name="LCSC" value="C318884"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae004c21-cb6e-4b40-a29c-8941bfac1182</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>RESET </value>
+      <footprint>Keebio-Parts:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="LCSC">C318884</field>
+      </fields>
+      <libsource lib="cipulot_parts" part="SW_PUSH" description=""/>
+      <property name="LCSC" value="C318884"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c8fa47b-35bd-4bbc-8584-8c363366e5f3</tstamps>
+    </comp>
     <comp ref="U1">
       <value>NCP1117-3.3_SOT223</value>
       <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
       <datasheet>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</datasheet>
       <fields>
-        <field name="LCSC">C20546</field>
+        <field name="LCSC">C26537</field>
       </fields>
       <libsource lib="Regulator_Linear" part="NCP1117-3.3_SOT223" description="1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"/>
-      <property name="LCSC" value="C20546"/>
+      <property name="LCSC" value="C26537"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1010,7 +1124,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ed8f5d6</tstamps>
+      <tstamps>c31bd11f-b689-4e5f-bed2-409e41196e49</tstamps>
     </comp>
     <comp ref="U44">
       <value>SRV05-4</value>
@@ -1439,6 +1553,7 @@
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
       <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
       <node ref="U3" pin="1" pinfunction="IOVDD" pintype="power_in"/>
@@ -1497,6 +1612,8 @@
     </net>
     <net code="14" name="/RUN">
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U3" pin="26" pinfunction="RUN" pintype="input"/>
     </net>
     <net code="15" name="/SWCLK">
@@ -1508,112 +1625,106 @@
       <node ref="U3" pin="25" pinfunction="SWD" pintype="bidirectional"/>
     </net>
     <net code="17" name="/USB_D+">
-      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="J0" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J0" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U44" pin="3" pinfunction="IO2" pintype="passive"/>
     </net>
     <net code="18" name="/USB_D-">
-      <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="U44" pin="6" pinfunction="IO4" pintype="passive"/>
-    </net>
-    <net code="19" name="/USB_DIN+">
-      <node ref="J0" pin="A6" pinfunction="D+" pintype="bidirectional"/>
-      <node ref="J0" pin="B6" pinfunction="D+" pintype="bidirectional"/>
-      <node ref="U44" pin="1" pinfunction="IO1" pintype="passive"/>
-    </net>
-    <net code="20" name="/USB_DIN-">
       <node ref="J0" pin="A7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="J0" pin="B7" pinfunction="D-" pintype="bidirectional"/>
-      <node ref="U44" pin="4" pinfunction="IO3" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U44" pin="6" pinfunction="IO4" pintype="passive"/>
     </net>
-    <net code="21" name="/XIN">
+    <net code="19" name="/XIN">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="U3" pin="20" pinfunction="XIN" pintype="input"/>
       <node ref="Y0" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="22" name="/XOUT">
+    <net code="20" name="/XOUT">
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U3" pin="21" pinfunction="XOUT" pintype="passive"/>
     </net>
-    <net code="23" name="/~{USB_BOOT}">
+    <net code="21" name="/~{USB_BOOT}">
       <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="SW0" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="24" name="COL0">
+    <net code="22" name="COL0">
       <node ref="K1" pin="1" pintype="passive"/>
       <node ref="K2" pin="1" pintype="passive"/>
       <node ref="K3" pin="1" pintype="passive"/>
       <node ref="K4" pin="1" pintype="passive"/>
       <node ref="U3" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
     </net>
-    <net code="25" name="COL1">
+    <net code="23" name="COL1">
       <node ref="K5" pin="1" pintype="passive"/>
       <node ref="K6" pin="1" pintype="passive"/>
       <node ref="K7" pin="1" pintype="passive"/>
       <node ref="K8" pin="1" pintype="passive"/>
       <node ref="U3" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
     </net>
-    <net code="26" name="COL2">
+    <net code="24" name="COL2">
       <node ref="K10" pin="1" pintype="passive"/>
       <node ref="K11" pin="1" pintype="passive"/>
       <node ref="K12" pin="1" pintype="passive"/>
       <node ref="K9" pin="1" pintype="passive"/>
       <node ref="U3" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
     </net>
-    <net code="27" name="COL3">
+    <net code="25" name="COL3">
       <node ref="K13" pin="1" pintype="passive"/>
       <node ref="K14" pin="1" pintype="passive"/>
       <node ref="K15" pin="1" pintype="passive"/>
       <node ref="K16" pin="1" pintype="passive"/>
       <node ref="U3" pin="14" pinfunction="GPIO11" pintype="bidirectional"/>
     </net>
-    <net code="28" name="COL4">
+    <net code="26" name="COL4">
       <node ref="K17" pin="1" pintype="passive"/>
       <node ref="K18" pin="1" pintype="passive"/>
       <node ref="K19" pin="1" pintype="passive"/>
       <node ref="U3" pin="13" pinfunction="GPIO10" pintype="bidirectional"/>
     </net>
-    <net code="29" name="COL5">
+    <net code="27" name="COL5">
       <node ref="K21" pin="1" pintype="passive"/>
       <node ref="K22" pin="1" pintype="passive"/>
       <node ref="K23" pin="1" pintype="passive"/>
       <node ref="SW2" pin="S1" pinfunction="S1" pintype="passive"/>
       <node ref="U3" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
     </net>
-    <net code="30" name="COL6">
+    <net code="28" name="COL6">
       <node ref="K25" pin="1" pintype="passive"/>
       <node ref="K26" pin="1" pintype="passive"/>
       <node ref="K27" pin="1" pintype="passive"/>
       <node ref="K28" pin="1" pintype="passive"/>
       <node ref="U3" pin="28" pinfunction="GPIO17" pintype="bidirectional"/>
     </net>
-    <net code="31" name="COL7">
+    <net code="29" name="COL7">
       <node ref="K29" pin="1" pintype="passive"/>
       <node ref="K30" pin="1" pintype="passive"/>
       <node ref="K31" pin="1" pintype="passive"/>
       <node ref="K32" pin="1" pintype="passive"/>
       <node ref="U3" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
     </net>
-    <net code="32" name="COL8">
+    <net code="30" name="COL8">
       <node ref="K33" pin="1" pintype="passive"/>
       <node ref="K34" pin="1" pintype="passive"/>
       <node ref="K35" pin="1" pintype="passive"/>
       <node ref="K36" pin="1" pintype="passive"/>
       <node ref="U3" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
     </net>
-    <net code="33" name="COL9">
+    <net code="31" name="COL9">
       <node ref="K37" pin="1" pintype="passive"/>
       <node ref="K38" pin="1" pintype="passive"/>
       <node ref="K39" pin="1" pintype="passive"/>
       <node ref="K40" pin="1" pintype="passive"/>
       <node ref="U3" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
     </net>
-    <net code="34" name="COL10">
+    <net code="32" name="COL10">
       <node ref="K20" pin="1" pintype="passive"/>
       <node ref="K24" pin="1" pintype="passive"/>
       <node ref="K41" pin="1" pintype="passive"/>
       <node ref="U3" pin="32" pinfunction="GPIO21" pintype="bidirectional"/>
     </net>
-    <net code="35" name="GND">
+    <net code="33" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
@@ -1638,9 +1749,10 @@
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
-      <node ref="SW0" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW1" pin="C" pinfunction="C" pintype="passive"/>
       <node ref="SW2" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="19" pinfunction="TESTEN" pintype="passive"/>
@@ -1649,221 +1761,221 @@
       <node ref="Y0" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Y0" pin="4" pinfunction="4" pintype="passive"/>
     </net>
-    <net code="36" name="KNOB2_L">
+    <net code="34" name="KNOB2_L">
       <node ref="SW2" pin="A" pinfunction="A" pintype="passive"/>
       <node ref="U3" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
     </net>
-    <net code="37" name="KNOB2_R">
+    <net code="35" name="KNOB2_R">
       <node ref="SW2" pin="B" pinfunction="B" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
     </net>
-    <net code="38" name="KNOB2_ROW">
+    <net code="36" name="KNOB2_ROW">
       <node ref="D10" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K22" pin="2" pintype="passive"/>
       <node ref="SW2" pin="S2" pinfunction="S2" pintype="passive"/>
     </net>
-    <net code="39" name="KNOB_COL">
+    <net code="37" name="KNOB_COL">
       <node ref="SW1" pin="S1" pinfunction="S1" pintype="passive"/>
       <node ref="U3" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
     </net>
-    <net code="40" name="KNOB_DIODE">
+    <net code="38" name="KNOB_DIODE">
       <node ref="D22" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW1" pin="S2" pinfunction="S2" pintype="passive"/>
     </net>
-    <net code="41" name="KNOB_L">
+    <net code="39" name="KNOB_L">
       <node ref="SW1" pin="A" pinfunction="A" pintype="passive"/>
       <node ref="U3" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
     </net>
-    <net code="42" name="KNOB_R">
+    <net code="40" name="KNOB_R">
       <node ref="SW1" pin="B" pinfunction="B" pintype="passive"/>
       <node ref="U3" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
     </net>
-    <net code="43" name="LED_GLOW">
+    <net code="41" name="LED_GLOW">
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U3" pin="15" pinfunction="GPIO12" pintype="bidirectional"/>
     </net>
-    <net code="44" name="Net-(C3-Pad1)">
+    <net code="42" name="Net-(C3-Pad1)">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="Y0" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="45" name="Net-(D1-Pad1)">
+    <net code="43" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K1" pin="2" pintype="passive"/>
     </net>
-    <net code="46" name="Net-(D1-Pad2)">
+    <net code="44" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K5" pin="2" pintype="passive"/>
     </net>
-    <net code="47" name="Net-(D2-Pad1)">
+    <net code="45" name="Net-(D2-Pad1)">
       <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K6" pin="2" pintype="passive"/>
     </net>
-    <net code="48" name="Net-(D2-Pad2)">
+    <net code="46" name="Net-(D2-Pad2)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K2" pin="2" pintype="passive"/>
     </net>
-    <net code="49" name="Net-(D3-Pad1)">
+    <net code="47" name="Net-(D3-Pad1)">
       <node ref="D3" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K3" pin="2" pintype="passive"/>
     </net>
-    <net code="50" name="Net-(D3-Pad2)">
+    <net code="48" name="Net-(D3-Pad2)">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K7" pin="2" pintype="passive"/>
     </net>
-    <net code="51" name="Net-(D4-Pad1)">
+    <net code="49" name="Net-(D4-Pad1)">
       <node ref="D4" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K8" pin="2" pintype="passive"/>
     </net>
-    <net code="52" name="Net-(D4-Pad2)">
+    <net code="50" name="Net-(D4-Pad2)">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K4" pin="2" pintype="passive"/>
     </net>
-    <net code="53" name="Net-(D5-Pad1)">
+    <net code="51" name="Net-(D5-Pad1)">
       <node ref="D5" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K9" pin="2" pintype="passive"/>
     </net>
-    <net code="54" name="Net-(D5-Pad2)">
+    <net code="52" name="Net-(D5-Pad2)">
       <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K13" pin="2" pintype="passive"/>
     </net>
-    <net code="55" name="Net-(D6-Pad1)">
+    <net code="53" name="Net-(D6-Pad1)">
       <node ref="D6" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K14" pin="2" pintype="passive"/>
     </net>
-    <net code="56" name="Net-(D6-Pad2)">
+    <net code="54" name="Net-(D6-Pad2)">
       <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K10" pin="2" pintype="passive"/>
     </net>
-    <net code="57" name="Net-(D7-Pad1)">
+    <net code="55" name="Net-(D7-Pad1)">
       <node ref="D7" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K11" pin="2" pintype="passive"/>
     </net>
-    <net code="58" name="Net-(D7-Pad2)">
+    <net code="56" name="Net-(D7-Pad2)">
       <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K15" pin="2" pintype="passive"/>
     </net>
-    <net code="59" name="Net-(D8-Pad1)">
+    <net code="57" name="Net-(D8-Pad1)">
       <node ref="D8" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K16" pin="2" pintype="passive"/>
     </net>
-    <net code="60" name="Net-(D8-Pad2)">
+    <net code="58" name="Net-(D8-Pad2)">
       <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K12" pin="2" pintype="passive"/>
     </net>
-    <net code="61" name="Net-(D9-Pad1)">
+    <net code="59" name="Net-(D9-Pad1)">
       <node ref="D9" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K17" pin="2" pintype="passive"/>
     </net>
-    <net code="62" name="Net-(D9-Pad2)">
+    <net code="60" name="Net-(D9-Pad2)">
       <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K21" pin="2" pintype="passive"/>
     </net>
-    <net code="63" name="Net-(D10-Pad2)">
+    <net code="61" name="Net-(D10-Pad2)">
       <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K18" pin="2" pintype="passive"/>
     </net>
-    <net code="64" name="Net-(D11-Pad1)">
+    <net code="62" name="Net-(D11-Pad1)">
       <node ref="D11" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K19" pin="2" pintype="passive"/>
     </net>
-    <net code="65" name="Net-(D11-Pad2)">
+    <net code="63" name="Net-(D11-Pad2)">
       <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K23" pin="2" pintype="passive"/>
     </net>
-    <net code="66" name="Net-(D12-Pad1)">
+    <net code="64" name="Net-(D12-Pad1)">
       <node ref="D12" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K20" pin="2" pintype="passive"/>
     </net>
-    <net code="67" name="Net-(D13-Pad1)">
+    <net code="65" name="Net-(D13-Pad1)">
       <node ref="D13" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K25" pin="2" pintype="passive"/>
     </net>
-    <net code="68" name="Net-(D13-Pad2)">
+    <net code="66" name="Net-(D13-Pad2)">
       <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K29" pin="2" pintype="passive"/>
     </net>
-    <net code="69" name="Net-(D14-Pad1)">
+    <net code="67" name="Net-(D14-Pad1)">
       <node ref="D14" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K30" pin="2" pintype="passive"/>
     </net>
-    <net code="70" name="Net-(D14-Pad2)">
+    <net code="68" name="Net-(D14-Pad2)">
       <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K26" pin="2" pintype="passive"/>
     </net>
-    <net code="71" name="Net-(D15-Pad1)">
+    <net code="69" name="Net-(D15-Pad1)">
       <node ref="D15" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K27" pin="2" pintype="passive"/>
     </net>
-    <net code="72" name="Net-(D15-Pad2)">
+    <net code="70" name="Net-(D15-Pad2)">
       <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K31" pin="2" pintype="passive"/>
     </net>
-    <net code="73" name="Net-(D16-Pad1)">
+    <net code="71" name="Net-(D16-Pad1)">
       <node ref="D16" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K32" pin="2" pintype="passive"/>
     </net>
-    <net code="74" name="Net-(D16-Pad2)">
+    <net code="72" name="Net-(D16-Pad2)">
       <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K28" pin="2" pintype="passive"/>
     </net>
-    <net code="75" name="Net-(D17-Pad1)">
+    <net code="73" name="Net-(D17-Pad1)">
       <node ref="D17" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K33" pin="2" pintype="passive"/>
     </net>
-    <net code="76" name="Net-(D17-Pad2)">
+    <net code="74" name="Net-(D17-Pad2)">
       <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K37" pin="2" pintype="passive"/>
     </net>
-    <net code="77" name="Net-(D18-Pad1)">
+    <net code="75" name="Net-(D18-Pad1)">
       <node ref="D18" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K38" pin="2" pintype="passive"/>
     </net>
-    <net code="78" name="Net-(D18-Pad2)">
+    <net code="76" name="Net-(D18-Pad2)">
       <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K34" pin="2" pintype="passive"/>
     </net>
-    <net code="79" name="Net-(D19-Pad1)">
+    <net code="77" name="Net-(D19-Pad1)">
       <node ref="D19" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K35" pin="2" pintype="passive"/>
     </net>
-    <net code="80" name="Net-(D19-Pad2)">
+    <net code="78" name="Net-(D19-Pad2)">
       <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K39" pin="2" pintype="passive"/>
     </net>
-    <net code="81" name="Net-(D20-Pad1)">
+    <net code="79" name="Net-(D20-Pad1)">
       <node ref="D20" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K40" pin="2" pintype="passive"/>
     </net>
-    <net code="82" name="Net-(D20-Pad2)">
+    <net code="80" name="Net-(D20-Pad2)">
       <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K36" pin="2" pintype="passive"/>
     </net>
-    <net code="83" name="Net-(D21-Pad1)">
+    <net code="81" name="Net-(D21-Pad1)">
       <node ref="D21" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="K24" pin="2" pintype="passive"/>
     </net>
-    <net code="84" name="Net-(D22-Pad2)">
+    <net code="82" name="Net-(D22-Pad2)">
       <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K41" pin="2" pintype="passive"/>
     </net>
-    <net code="85" name="Net-(J0-PadA5)">
+    <net code="83" name="Net-(J0-PadA5)">
       <node ref="J0" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
       <node ref="R7" pin="1" pintype="passive"/>
     </net>
-    <net code="86" name="Net-(J0-PadB5)">
+    <net code="84" name="Net-(J0-PadB5)">
       <node ref="J0" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="87" name="Net-(R3-Pad2)">
-      <node ref="R3" pin="2" pintype="passive"/>
+    <net code="85" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U3" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
     </net>
-    <net code="88" name="Net-(R4-Pad2)">
-      <node ref="R4" pin="2" pintype="passive"/>
+    <net code="86" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U3" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
     </net>
-    <net code="89" name="ROW0">
+    <net code="87" name="ROW0">
       <node ref="D1" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D12" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D13" pin="3" pinfunction="K" pintype="passive"/>
@@ -1872,7 +1984,7 @@
       <node ref="D9" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="U3" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
     </net>
-    <net code="90" name="ROW1">
+    <net code="88" name="ROW1">
       <node ref="D10" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D14" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D18" pin="3" pinfunction="K" pintype="passive"/>
@@ -1881,7 +1993,7 @@
       <node ref="D6" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="U3" pin="16" pinfunction="GPIO13" pintype="bidirectional"/>
     </net>
-    <net code="91" name="ROW2">
+    <net code="89" name="ROW2">
       <node ref="D11" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D15" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D19" pin="3" pinfunction="K" pintype="passive"/>
@@ -1890,46 +2002,52 @@
       <node ref="D7" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="U3" pin="17" pinfunction="GPIO14" pintype="bidirectional"/>
     </net>
-    <net code="92" name="ROW3">
+    <net code="90" name="ROW3">
       <node ref="D16" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D20" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D4" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="D8" pin="3" pinfunction="K" pintype="passive"/>
       <node ref="U3" pin="18" pinfunction="GPIO15" pintype="bidirectional"/>
     </net>
-    <net code="93" name="VBUS">
+    <net code="91" name="VBUS">
       <node ref="F0" pin="1" pintype="passive"/>
       <node ref="J0" pin="A4" pinfunction="VBUS" pintype="passive"/>
       <node ref="J0" pin="A9" pinfunction="VBUS" pintype="passive"/>
       <node ref="J0" pin="B4" pinfunction="VBUS" pintype="passive"/>
       <node ref="J0" pin="B9" pinfunction="VBUS" pintype="passive"/>
     </net>
-    <net code="94" name="unconnected-(D12-Pad2)">
+    <net code="92" name="unconnected-(D12-Pad2)">
       <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="95" name="unconnected-(D21-Pad2)">
+    <net code="93" name="unconnected-(D21-Pad2)">
       <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="96" name="unconnected-(J0-PadA8)">
+    <net code="94" name="unconnected-(J0-PadA8)">
       <node ref="J0" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="97" name="unconnected-(J0-PadB8)">
+    <net code="95" name="unconnected-(J0-PadB8)">
       <node ref="J0" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="98" name="unconnected-(U3-Pad3)">
+    <net code="96" name="unconnected-(U3-Pad3)">
       <node ref="U3" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
     </net>
-    <net code="99" name="unconnected-(U3-Pad4)">
+    <net code="97" name="unconnected-(U3-Pad4)">
       <node ref="U3" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
     </net>
-    <net code="100" name="unconnected-(U3-Pad5)">
+    <net code="98" name="unconnected-(U3-Pad5)">
       <node ref="U3" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
     </net>
-    <net code="101" name="unconnected-(U3-Pad36)">
+    <net code="99" name="unconnected-(U3-Pad36)">
       <node ref="U3" pin="36" pinfunction="GPIO24" pintype="bidirectional"/>
     </net>
-    <net code="102" name="unconnected-(U3-Pad37)">
+    <net code="100" name="unconnected-(U3-Pad37)">
       <node ref="U3" pin="37" pinfunction="GPIO25" pintype="bidirectional"/>
+    </net>
+    <net code="101" name="unconnected-(U44-Pad1)">
+      <node ref="U44" pin="1" pinfunction="IO1" pintype="passive"/>
+    </net>
+    <net code="102" name="unconnected-(U44-Pad4)">
+      <node ref="U44" pin="4" pinfunction="IO3" pintype="passive"/>
     </net>
   </nets>
 </export>
