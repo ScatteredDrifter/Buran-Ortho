@@ -22,17 +22,17 @@ additional Led-Breakout hasnt been tested yet, **needs validation**
 
 ### Layout :: 
 
-![/images/layout_options.png]
+![](/images/layout_options.png)
 customizable with Vial-Firmware 
 
-### Images :: 
+## Images :: 
 
-![/images/buran-acryl.jpg]
+![](/images/buran-acryl.jpg)
 
-![/images/buran-back.jpg]
+![](/images/buran-back.jpg)
 
-![/images/buran-no-acryl-isp.jpg] 
+![](/images/buran-no-acryl-isp.jpg) 
 Image by Isp 
 
-![/images/buran-pcb.jpg]
+![](/images/buran-pcb.jpg)
 
