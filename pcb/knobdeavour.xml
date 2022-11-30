@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/fabian/Nextcloud/tech-cluster/KEYBOARDS/own/Buran-Ortho/pcb/knobdeavour.kicad_sch</source>
-    <date>Mon 19 Sep 2022 14:16:40 CEST</date>
-    <tool>Eeschema (6.0.7)</tool>
+    <source>/home/evelyn/Nextcloud/tech-cluster/KEYBOARDS/__own_designs/Buran-Ortho/pcb/knobdeavour.kicad_sch</source>
+    <date>Mon 28 Nov 2022 23:59:02 CET</date>
+    <tool>Eeschema (6.0.9)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Rp2040 __template__</title>
@@ -565,12 +565,21 @@
     </comp>
     <comp ref="J2">
       <value>Conn_01x03_Male</value>
-      <footprint>Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical</footprint>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d1c8f35c-2f81-44c3-92ac-c2b939a3237a</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="knobdeavour.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff75ac43-7a8e-495d-b7ce-dc18a6170443</tstamps>
     </comp>
     <comp ref="J4">
       <value>Conn_01x01_Male</value>
@@ -1170,6 +1179,22 @@
         <pin num="1" name="Pin_1" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector" part="Conn_01x03_Male">
       <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -1508,28 +1533,28 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>/home/fabian/tech-cluster/KICAD/libs/kicad-symbols-master/Connector.lib</uri>
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/kicad-symbols-master/Connector.lib</uri>
     </library>
     <library logical="Device">
-      <uri>/home/fabian/tech-cluster/KICAD/libs/kicad-symbols-master/Device.lib</uri>
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/kicad-symbols-master/Device.lib</uri>
     </library>
     <library logical="Diode">
-      <uri>/home/fabian/tech-cluster/KICAD/libs/kicad-symbols-master/Diode.lib</uri>
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/kicad-symbols-master/Diode.lib</uri>
     </library>
     <library logical="Memory_Flash">
-      <uri>/home/fabian/tech-cluster/KICAD/libs/kicad-symbols-master/Memory_Flash.lib</uri>
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/kicad-symbols-master/Memory_Flash.lib</uri>
     </library>
     <library logical="Power_Protection">
-      <uri>/home/fabian/tech-cluster/KICAD/libs/kicad-symbols-master/Power_Protection.lib</uri>
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/kicad-symbols-master/Power_Protection.lib</uri>
     </library>
     <library logical="Regulator_Linear">
-      <uri>/home/fabian/tech-cluster/KICAD/libs/kicad-symbols-master/Regulator_Linear.lib</uri>
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/kicad-symbols-master/Regulator_Linear.lib</uri>
     </library>
     <library logical="cipulot_parts">
-      <uri>/home/fabian/tech-cluster/KICAD/libs/cipulot_kicad_parts/cipulot_parts.lib</uri>
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/cipulot_kicad_parts/cipulot_parts.lib</uri>
     </library>
     <library logical="keyboard_parts">
-      <uri>/home/fabian/tech-cluster/KICAD/libs/kicad_lib_tmk/keyboard_parts.lib</uri>
+      <uri>/home/evelyn/tech-cluster/KICAD/libs/kicad_lib_tmk/keyboard_parts.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -2016,32 +2041,34 @@
       <node ref="J0" pin="B4" pinfunction="VBUS" pintype="passive"/>
       <node ref="J0" pin="B9" pinfunction="VBUS" pintype="passive"/>
     </net>
-    <net code="92" name="unconnected-(D12-Pad2)">
-      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
-    </net>
-    <net code="93" name="unconnected-(D21-Pad2)">
-      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
-    </net>
-    <net code="94" name="unconnected-(J0-PadA8)">
-      <node ref="J0" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="95" name="unconnected-(J0-PadB8)">
-      <node ref="J0" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="96" name="unconnected-(U3-Pad3)">
-      <node ref="U3" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
-    </net>
-    <net code="97" name="unconnected-(U3-Pad4)">
-      <node ref="U3" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
-    </net>
-    <net code="98" name="unconnected-(U3-Pad5)">
-      <node ref="U3" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
-    </net>
-    <net code="99" name="unconnected-(U3-Pad36)">
+    <net code="92" name="additional_pin1">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U3" pin="36" pinfunction="GPIO24" pintype="bidirectional"/>
     </net>
-    <net code="100" name="unconnected-(U3-Pad37)">
+    <net code="93" name="additional_pin2">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U3" pin="37" pinfunction="GPIO25" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="unconnected-(D12-Pad2)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="95" name="unconnected-(D21-Pad2)">
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="96" name="unconnected-(J0-PadA8)">
+      <node ref="J0" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(J0-PadB8)">
+      <node ref="J0" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U3-Pad3)">
+      <node ref="U3" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="unconnected-(U3-Pad4)">
+      <node ref="U3" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="100" name="unconnected-(U3-Pad5)">
+      <node ref="U3" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
     </net>
     <net code="101" name="unconnected-(U44-Pad1)">
       <node ref="U44" pin="1" pinfunction="IO1" pintype="passive"/>

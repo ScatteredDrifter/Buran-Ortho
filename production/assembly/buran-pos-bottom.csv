@@ -1,4 +1,4 @@
-Designator,Val,Package,Mid X,Mid y,Rotation,Layer
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C1","10u","C_0805_2012Metric",-162.410000,-43.540000,0.000000,bottom
 "C2","22pf","C_0805_2012Metric",-156.960000,-88.150000,-135.000000,bottom
 "C3","22pf","C_0805_2012Metric",-161.450000,-92.640000,45.000000,bottom
@@ -39,11 +39,12 @@ Designator,Val,Package,Mid X,Mid y,Rotation,Layer
 "F0","polyfuse","Fuse_1206_3216Metric",-163.000000,-41.330000,180.000000,bottom
 "J0","USB_C_Receptacle_USB2.0","USB_C_Receptacle_HRO_TYPE-C-31-M-12",-153.710000,-32.970000,0.000000,bottom
 "J1","BREAKOUT","PinSocket_1x05_P2.54mm_Vertical",-166.225000,-119.400000,0.000000,bottom
-"J2","Conn_01x03_Male","PinSocket_1x03_P1.27mm_Vertical",-144.945000,-45.545000,180.000000,bottom
+"J2","Conn_01x03_Male","PinSocket_1x03_P2.54mm_Vertical",-144.945000,-45.545000,180.000000,bottom
+"J3","Conn_01x02_Female","PinSocket_1x02_P2.54mm_Vertical",-156.660000,-108.815000,-90.000000,bottom
 "J4","Conn_01x01_Male","PinSocket_1x01_P1.27mm_Vertical",-153.685000,-69.620000,180.000000,bottom
 "R1","1k","R_0805_2012Metric",-131.920000,-117.270000,-90.000000,bottom
-"R3","27","R_0805_2012Metric",-148.860000,-106.050000,45.000000,bottom
-"R4","27","R_0805_2012Metric",-150.320000,-107.480000,45.000000,bottom
+"R2","27","R_0805_2012Metric",-148.860000,-106.050000,45.000000,bottom
+"R3","27","R_0805_2012Metric",-150.320000,-107.480000,45.000000,bottom
 "R5","1k","R_0805_2012Metric",-162.880000,-94.070000,45.000000,bottom
 "R6","5.1k","R_0805_2012Metric",-161.500000,-38.580000,0.000000,bottom
 "R7","5.1k","R_0805_2012Metric",-145.800000,-38.610000,180.000000,bottom
