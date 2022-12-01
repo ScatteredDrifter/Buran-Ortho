@@ -15,6 +15,7 @@ Used License :: [Cern Open hardware](/LICENSE)
 ---
 
 ## Features :: 
+- PCB supports MX, Alps and Choc v1 switches  
 - QMK and Vial Support
 - built with rp2040 and additional flash storage allowing for plenty of combos, layers, led matrices etc.
 - easy to order with jlcpcb --> check release for files 
