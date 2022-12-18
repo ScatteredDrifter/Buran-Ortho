@@ -57,6 +57,10 @@ Case-option without additoinal buttons in the middle :
 ![](/images/buran-no-acryl-isp.jpg) 
 Image by Isp 
 
+Case-option with an alternative bottom design :
+![](/images/alternative_bottom.jpg)
+Design and Image by DeadCatAlive
+
 ## Images of PCB :: 
 
 ![](/images/pcb_front.JPG)
