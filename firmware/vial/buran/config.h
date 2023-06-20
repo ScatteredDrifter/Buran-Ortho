@@ -13,13 +13,16 @@
 
 /* --- Matrix definition --- */
 #define MATRIX_ROWS 4 
-#define MATRIX_COLS 11
+#define MATRIX_COLS 12
 
 /* --- Matrix assignment --- */ 
 #define MATRIX_COL_PINS \
-    { GP7, GP8, GP9, GP11, GP10, GP0, GP17, GP18, GP19, GP20, GP21 }
+    { GP7, GP8, GP9, GP11, GP10, GP0, GP17, GP18, GP19, GP20, GP21, GP16}
 #define MATRIX_ROW_PINS \
     { GP6, GP13, GP14, GP15 }
+/* --- Encoder assignment --- */
+#define ENCODER_RESOLUTION 4
+
 /* --- additional settings --- */
 #define DEBUG_MATRIX_SCAN_RATE
 #define LAYER_STATE_16BIT

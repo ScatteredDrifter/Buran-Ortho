@@ -8,3 +8,6 @@
 
 #define VIAL_UNLOCK_COMBO_ROWS { 1, 1 }
 #define VIAL_UNLOCK_COMBO_COLS { 0, 10 }
+
+#define ENCODERS_PAD_A {GP22, GP4}
+#define ENCODERS_PAD_B {GP23, GP5}
