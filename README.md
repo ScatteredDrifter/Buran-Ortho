@@ -37,6 +37,7 @@ All files for the case are to be found [here](/case/).
 
 For the top-part of the case there are several options available, where each of them was designed for a specific layout. 
 
+Another **beautiful** case is to be found [here](https://github.com/subottimale/Buran-Bofa-case). Maybe consider it, seems to be constructed better overall.
 
 ## Firmware :: 
 
